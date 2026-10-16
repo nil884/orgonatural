@@ -1,0 +1,44 @@
+[27-May-2020 12:08:00 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/mysurun/public_html/easierdesk.in/admin/product/uploadimg.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/admin/product/uploadimg.php on line 29
+[29-Jun-2020 11:39:51 Asia/Kolkata] PHP Warning:  include_once(./classes/order.php): failed to open stream: No such file or directory in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 11:39:51 Asia/Kolkata] PHP Warning:  include_once(): Failed opening './classes/order.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 11:39:51 Asia/Kolkata] PHP Warning:  include_once(./classes/user.php): failed to open stream: No such file or directory in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 11:39:51 Asia/Kolkata] PHP Warning:  include_once(): Failed opening './classes/user.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 11:39:51 Asia/Kolkata] PHP Warning:  include_once(./classes/product.php): failed to open stream: No such file or directory in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 11:39:51 Asia/Kolkata] PHP Warning:  include_once(): Failed opening './classes/product.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 11:39:51 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'Product' not found in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php:11
+Stack trace:
+#0 /home/mysurun/public_html/easierdesk.in/admin/product/pendingprod.php(13): include()
+#1 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 11
+[29-Jun-2020 11:41:35 Asia/Kolkata] PHP Warning:  include_once(./classes/order.php): failed to open stream: No such file or directory in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 11:41:35 Asia/Kolkata] PHP Warning:  include_once(): Failed opening './classes/order.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 11:41:35 Asia/Kolkata] PHP Warning:  include_once(./classes/user.php): failed to open stream: No such file or directory in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 11:41:35 Asia/Kolkata] PHP Warning:  include_once(): Failed opening './classes/user.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 11:41:35 Asia/Kolkata] PHP Warning:  include_once(./classes/product.php): failed to open stream: No such file or directory in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 11:41:35 Asia/Kolkata] PHP Warning:  include_once(): Failed opening './classes/product.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 11:41:35 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'Product' not found in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php:11
+Stack trace:
+#0 /home/mysurun/public_html/easierdesk.in/admin/product/pendingprod.php(13): include()
+#1 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 11
+[29-Jun-2020 11:48:32 Asia/Kolkata] PHP Warning:  include_once(./classes/order.php): failed to open stream: No such file or directory in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 11:48:32 Asia/Kolkata] PHP Warning:  include_once(): Failed opening './classes/order.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 11:48:32 Asia/Kolkata] PHP Warning:  include_once(./classes/user.php): failed to open stream: No such file or directory in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 11:48:32 Asia/Kolkata] PHP Warning:  include_once(): Failed opening './classes/user.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 11:48:32 Asia/Kolkata] PHP Warning:  include_once(./classes/product.php): failed to open stream: No such file or directory in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 11:48:32 Asia/Kolkata] PHP Warning:  include_once(): Failed opening './classes/product.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 11:48:32 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'Product' not found in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php:11
+Stack trace:
+#0 /home/mysurun/public_html/easierdesk.in/admin/product/pendingprod.php(13): include()
+#1 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 11
+[16-Jul-2020 12:50:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/mysurun/public_html/easierdesk.in/includes/db.php:19
+Stack trace:
+#0 /home/mysurun/public_html/easierdesk.in/includes/customconfig.php(2): selectQuery('confguration', '*', 'id= 1')
+#1 /home/mysurun/public_html/easierdesk.in/includes/configuration.php(6): include('/home/mysurun/p...')
+#2 /home/mysurun/public_html/easierdesk.in/admin/product/uploadimg.php(1): include('/home/mysurun/p...')
+#3 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/includes/db.php on line 19

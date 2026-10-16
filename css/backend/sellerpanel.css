@@ -1,0 +1,8 @@
+.seller-body-wrap{min-height: calc(100vh - 52px);padding-top: 80px;padding-bottom: 20px;}
+.sell-per-det-success{padding: 20px;}
+.tracking-details .tracking-steps:last-child{border-bottom: 0 !important;padding-bottom: 0 !important;}
+canvas{height: 280px;}
+@media screen and (min-width:993px){.ven-doc-col{width: 190px;flex: inherit;}}
+@media screen and (max-width:550px){.page-body-wrapper {padding-top: 92px;}}
+@media screen and (max-width:576px){.memlogdrop{position: absolute;right: 20px;top: 5px;}}
+.usershortpic{width: 25px;height: 25px;line-height: 25px;border-radius: 50px;}

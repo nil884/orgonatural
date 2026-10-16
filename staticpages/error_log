@@ -1,0 +1,19 @@
+[03-Jul-2020 22:28:06 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: File not found in /home/mysurun/public_html/easierdesk.in/favicon-generator/src/FaviconGenerator.php:185
+Stack trace:
+#0 /home/mysurun/public_html/easierdesk.in/commoncss.php(7): FaviconGenerator->__construct('img/projectimag...')
+#1 /home/mysurun/public_html/easierdesk.in/staticpages/privacy.php(9): include('/home/mysurun/p...')
+#2 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/favicon-generator/src/FaviconGenerator.php on line 185
+[03-Jul-2020 22:47:03 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: File not found in /home/mysurun/public_html/easierdesk.in/favicon-generator/src/FaviconGenerator.php:185
+Stack trace:
+#0 /home/mysurun/public_html/easierdesk.in/commoncss.php(7): FaviconGenerator->__construct('img/projectimag...')
+#1 /home/mysurun/public_html/easierdesk.in/staticpages/termsconditions.php(9): include('/home/mysurun/p...')
+#2 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/favicon-generator/src/FaviconGenerator.php on line 185
+[04-Jul-2020 10:23:50 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: File not found in /home/mysurun/public_html/easierdesk.in/favicon-generator/src/FaviconGenerator.php:185
+Stack trace:
+#0 /home/mysurun/public_html/easierdesk.in/commoncss.php(7): FaviconGenerator->__construct('img/projectimag...')
+#1 /home/mysurun/public_html/easierdesk.in/staticpages/privacy.php(9): include('/home/mysurun/p...')
+#2 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/favicon-generator/src/FaviconGenerator.php on line 185
+[05-Aug-2020 13:06:03 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imagick.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so (libMagickWand-6.Q16.so.6: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/imagick.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0

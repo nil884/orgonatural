@@ -1,0 +1,63 @@
+[05-May-2020 16:12:31 Indian/Mauritius] PHP Fatal error:  Uncaught Error: Call to a member function disbursmentOrdersCount() on null in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php:269
+Stack trace:
+#0 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php on line 269
+[05-May-2020 16:15:19 Indian/Mauritius] PHP Fatal error:  Uncaught Error: Call to a member function disbursmentOrdersCount() on null in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php:269
+Stack trace:
+#0 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php on line 269
+[05-May-2020 16:19:13 Indian/Mauritius] PHP Fatal error:  Uncaught Error: Call to a member function disbursmentOrdersCount() on null in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php:269
+Stack trace:
+#0 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php on line 269
+[05-May-2020 16:51:37 Indian/Mauritius] PHP Fatal error:  Uncaught Error: Call to a member function disbursmentOrdersCount() on null in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php:269
+Stack trace:
+#0 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php on line 269
+[05-May-2020 16:51:48 Indian/Mauritius] PHP Fatal error:  Uncaught Error: Call to a member function disbursmentOrdersCount() on null in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php:269
+Stack trace:
+#0 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php on line 269
+[05-May-2020 16:53:20 Indian/Mauritius] PHP Fatal error:  Uncaught Error: Call to a member function disbursmentOrdersCount() on null in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php:269
+Stack trace:
+#0 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php on line 269
+[05-May-2020 16:54:43 Indian/Mauritius] PHP Fatal error:  Uncaught Error: Call to a member function disbursmentOrdersCount() on null in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php:269
+Stack trace:
+#0 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php on line 269
+[05-May-2020 16:54:47 Indian/Mauritius] PHP Fatal error:  Uncaught Error: Call to a member function disbursmentOrdersCount() on null in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php:269
+Stack trace:
+#0 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php on line 269
+[05-May-2020 16:55:06 Indian/Mauritius] PHP Fatal error:  Uncaught Error: Call to a member function disbursmentOrdersCount() on null in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php:269
+Stack trace:
+#0 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php on line 269
+[07-May-2020 14:04:12 Indian/Mauritius] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php on line 199
+[07-May-2020 14:04:12 Indian/Mauritius] PHP Warning:  Illegal string offset 'display_product_name' in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php on line 201
+[07-May-2020 14:04:12 Indian/Mauritius] PHP Warning:  Illegal string offset 'tot' in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php on line 202
+[07-May-2020 14:04:12 Indian/Mauritius] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php on line 199
+[07-May-2020 10:11:52 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php on line 208
+[07-May-2020 15:52:25 Indian/Mauritius] PHP Warning:  Illegal string offset 'pur_id' in /home/mysurun/public_html/easierdesk.in/vendors/searchdata.php on line 12
+[07-May-2020 16:07:57 Indian/Mauritius] PHP Warning:  Illegal string offset 'total' in /home/mysurun/public_html/easierdesk.in/vendors/searchdata.php on line 12
+[07-May-2020 16:09:12 Indian/Mauritius] PHP Warning:  Illegal string offset 'total' in /home/mysurun/public_html/easierdesk.in/vendors/searchdata.php on line 12
+[07-May-2020 16:37:18 Indian/Mauritius] PHP Warning:  Illegal string offset 'total' in /home/mysurun/public_html/easierdesk.in/vendors/searchdata.php on line 12
+[08-May-2020 15:42:08 Indian/Mauritius] PHP Warning:  Illegal string offset 'total_order' in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php on line 70
+[08-May-2020 15:42:43 Indian/Mauritius] PHP Warning:  Illegal string offset 'total_order' in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php on line 70
+[08-May-2020 17:40:23 Indian/Mauritius] PHP Warning:  Invalid argument supplied for foreach() in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php on line 51
+[08-May-2020 17:41:02 Indian/Mauritius] PHP Warning:  Invalid argument supplied for foreach() in /home/mysurun/public_html/easierdesk.in/vendors/dashboard.php on line 51
+[21-May-2020 14:51:14 Asia/Kolkata] PHP Warning:  Use of undefined constant sms_text - assumed 'sms_text' (this will throw an Error in a future version of PHP) in /home/mysurun/public_html/easierdesk.in/vendors/success.php on line 98
+[03-Jun-2020 11:32:12 Asia/Kolkata] PHP Warning:  Use of undefined constant sms_text - assumed 'sms_text' (this will throw an Error in a future version of PHP) in /home/mysurun/public_html/easierdesk.in/vendors/success.php on line 97
+[17-Jun-2020 10:51:12 Asia/Kolkata] PHP Warning:  Illegal string offset 'pur_id' in /home/mysurun/public_html/easierdesk.in/vendors/searchdata.php on line 13
+[17-Jun-2020 10:51:13 Asia/Kolkata] PHP Warning:  Illegal string offset 'pur_id' in /home/mysurun/public_html/easierdesk.in/vendors/searchdata.php on line 13
+[17-Jun-2020 10:51:14 Asia/Kolkata] PHP Warning:  Illegal string offset 'pur_id' in /home/mysurun/public_html/easierdesk.in/vendors/searchdata.php on line 13
+[17-Jun-2020 10:51:42 Asia/Kolkata] PHP Warning:  Illegal string offset 'pur_id' in /home/mysurun/public_html/easierdesk.in/vendors/searchdata.php on line 13
+[17-Jun-2020 10:58:31 Asia/Kolkata] PHP Warning:  Illegal string offset 'pur_id' in /home/mysurun/public_html/easierdesk.in/vendors/searchdata.php on line 16
+[17-Jun-2020 05:30:35 UTC] PHP Parse error:  syntax error, unexpected '$vendor_total_Pending' (T_VARIABLE) in /home/mysurun/public_html/easierdesk.in/vendors/searchdata.php on line 12
+[17-Jun-2020 11:01:03 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home/mysurun/public_html/easierdesk.in/vendors/searchdata.php on line 17
+[17-Jun-2020 11:55:00 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home/mysurun/public_html/easierdesk.in/vendors/searchdata.php on line 18
+[17-Jun-2020 11:55:10 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home/mysurun/public_html/easierdesk.in/vendors/searchdata.php on line 18
+[17-Jun-2020 12:01:41 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home/mysurun/public_html/easierdesk.in/vendors/searchdata.php on line 19
+[17-Jun-2020 19:00:01 Asia/Kolkata] PHP Warning:  Use of undefined constant sms_text - assumed 'sms_text' (this will throw an Error in a future version of PHP) in /home/mysurun/public_html/easierdesk.in/vendors/success.php on line 97
+[09-Jul-2020 16:33:02 Asia/Kolkata] PHP Warning:  Use of undefined constant sms_text - assumed 'sms_text' (this will throw an Error in a future version of PHP) in /home/mysurun/public_html/easierdesk.in/vendors/success.php on line 97

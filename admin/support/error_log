@@ -1,0 +1,18 @@
+[25-Feb-2020 15:03:56 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/support/updatestaffdata.php on line 23
+[25-Feb-2020 15:03:56 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/support/updatestaffdata.php on line 42
+[25-Feb-2020 15:05:12 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/support/updatestaffdata.php on line 24
+[25-Feb-2020 15:05:12 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/support/updatestaffdata.php on line 43
+[25-Feb-2020 15:05:28 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/support/updatestaffdata.php on line 24
+[25-Feb-2020 15:05:28 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/support/updatestaffdata.php on line 43
+[25-Feb-2020 15:09:10 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/support/updatestaffdata.php on line 42
+[25-Feb-2020 15:13:27 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/support/updatestaffdata.php on line 42
+[09-Apr-2020 09:52:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function selectQuery() in /home/mysurun/public_html/easierdesk.in/admin/support/supp-nav.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/admin/support/supp-nav.php on line 2
+[09-Apr-2020 15:25:31 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/mysurun/public_html/easierdesk.in/admin/support/supportemail.php on line 92
+[09-Apr-2020 15:26:12 Asia/Kolkata] PHP Warning:  include(../cssmenu.php): failed to open stream: No such file or directory in /home/mysurun/public_html/easierdesk.in/admin/support/viewrequestdetails.php on line 58
+[09-Apr-2020 15:26:12 Asia/Kolkata] PHP Warning:  include(): Failed opening '../cssmenu.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mysurun/public_html/easierdesk.in/admin/support/viewrequestdetails.php on line 58
+[09-Apr-2020 15:27:53 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/mysurun/public_html/easierdesk.in/admin/support/supportemail.php on line 92
+[21-May-2020 18:17:40 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/mysurun/public_html/easierdesk.in/admin/support/supportemail.php on line 92
+[21-May-2020 18:26:21 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/mysurun/public_html/easierdesk.in/admin/support/supportemail.php on line 92

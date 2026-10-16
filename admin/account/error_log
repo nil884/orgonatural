@@ -1,0 +1,139 @@
+[28-May-2020 12:36:14 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 83
+[28-May-2020 12:36:14 Asia/Kolkata] PHP Warning:  Illegal string offset 'plan_id' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 84
+[28-May-2020 12:36:14 Asia/Kolkata] PHP Warning:  Illegal string offset 'payment_date' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 87
+[28-May-2020 12:36:14 Asia/Kolkata] PHP Warning:  Illegal string offset 'pay_id' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 88
+[28-May-2020 12:36:14 Asia/Kolkata] PHP Warning:  Illegal string offset 'plan_id' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 88
+[28-May-2020 12:36:14 Asia/Kolkata] PHP Warning:  Illegal string offset 'transaction_id' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 92
+[28-May-2020 12:36:14 Asia/Kolkata] PHP Warning:  Illegal string offset 'transaction_id' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 94
+[28-May-2020 12:36:14 Asia/Kolkata] PHP Warning:  Illegal string offset 'payu_status' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 95
+[28-May-2020 12:36:14 Asia/Kolkata] PHP Warning:  Illegal string offset 'payu_status' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 99
+[28-May-2020 12:36:14 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 83
+[28-May-2020 12:38:37 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 83
+[28-May-2020 12:38:37 Asia/Kolkata] PHP Warning:  Illegal string offset 'plan_id' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 84
+[28-May-2020 12:38:37 Asia/Kolkata] PHP Warning:  Illegal string offset 'payment_date' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 87
+[28-May-2020 12:38:37 Asia/Kolkata] PHP Warning:  Illegal string offset 'pay_id' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 88
+[28-May-2020 12:38:37 Asia/Kolkata] PHP Warning:  Illegal string offset 'plan_id' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 88
+[28-May-2020 12:38:37 Asia/Kolkata] PHP Warning:  Illegal string offset 'transaction_id' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 92
+[28-May-2020 12:38:37 Asia/Kolkata] PHP Warning:  Illegal string offset 'transaction_id' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 94
+[28-May-2020 12:38:37 Asia/Kolkata] PHP Warning:  Illegal string offset 'payu_status' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 95
+[28-May-2020 12:38:37 Asia/Kolkata] PHP Warning:  Illegal string offset 'payu_status' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 99
+[28-May-2020 12:38:37 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 83
+[28-May-2020 12:40:49 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 83
+[28-May-2020 12:40:49 Asia/Kolkata] PHP Warning:  Illegal string offset 'plan_id' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 84
+[28-May-2020 12:40:49 Asia/Kolkata] PHP Warning:  Illegal string offset 'payment_date' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 87
+[28-May-2020 12:40:49 Asia/Kolkata] PHP Warning:  Illegal string offset 'pay_id' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 88
+[28-May-2020 12:40:49 Asia/Kolkata] PHP Warning:  Illegal string offset 'plan_id' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 88
+[28-May-2020 12:40:49 Asia/Kolkata] PHP Warning:  Illegal string offset 'transaction_id' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 92
+[28-May-2020 12:40:49 Asia/Kolkata] PHP Warning:  Illegal string offset 'transaction_id' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 94
+[28-May-2020 12:40:49 Asia/Kolkata] PHP Warning:  Illegal string offset 'payu_status' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 95
+[28-May-2020 12:40:49 Asia/Kolkata] PHP Warning:  Illegal string offset 'payu_status' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 99
+[28-May-2020 12:40:49 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 83
+[28-May-2020 14:27:36 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 100
+[28-May-2020 14:27:36 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 100
+[28-May-2020 14:27:36 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 100
+[28-May-2020 14:27:36 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 100
+[28-May-2020 14:27:36 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 100
+[28-May-2020 14:27:36 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 100
+[28-May-2020 14:27:36 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 100
+[28-May-2020 14:27:36 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 100
+[28-May-2020 14:27:36 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 100
+[28-May-2020 14:27:36 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 100
+[28-May-2020 14:27:36 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 100
+[28-May-2020 14:27:36 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 100
+[28-May-2020 14:27:36 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 100
+[28-May-2020 14:27:36 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 100
+[28-May-2020 14:27:36 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 100
+[02-Jun-2020 10:54:01 Asia/Kolkata] PHP Warning:  Illegal string offset 'total_count' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 39
+[02-Jun-2020 10:54:01 Asia/Kolkata] PHP Warning:  Illegal string offset 'total_payable' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 40
+[02-Jun-2020 10:56:30 Asia/Kolkata] PHP Warning:  Illegal string offset 'total_count' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 39
+[02-Jun-2020 10:56:30 Asia/Kolkata] PHP Warning:  Illegal string offset 'total_payable' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 40
+[02-Jun-2020 13:06:16 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 91
+[02-Jun-2020 13:06:16 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 116
+[02-Jun-2020 13:06:16 Asia/Kolkata] PHP Warning:  Illegal string offset 'plan_id' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 117
+[02-Jun-2020 13:06:16 Asia/Kolkata] PHP Warning:  Illegal string offset 'payment_date' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 124
+[02-Jun-2020 13:06:16 Asia/Kolkata] PHP Warning:  Illegal string offset 'plan_id' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 125
+[02-Jun-2020 13:06:16 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 116
+[02-Jun-2020 13:09:29 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 91
+[02-Jun-2020 13:09:29 Asia/Kolkata] PHP Warning:  Illegal string offset 'total_price' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 101
+[02-Jun-2020 13:09:29 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 116
+[02-Jun-2020 13:09:29 Asia/Kolkata] PHP Warning:  Illegal string offset 'plan_id' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 117
+[02-Jun-2020 13:09:29 Asia/Kolkata] PHP Warning:  Illegal string offset 'payment_date' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 124
+[02-Jun-2020 13:09:29 Asia/Kolkata] PHP Warning:  Illegal string offset 'plan_id' in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 125
+[02-Jun-2020 13:09:29 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 116
+[02-Jun-2020 21:55:42 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:42 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:42 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:42 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:43 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:43 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:43 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:43 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:43 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:43 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:43 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:43 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:44 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:44 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:44 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:44 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:45 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:45 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:45 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:45 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:45 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:45 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:46 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:46 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:46 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:46 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:46 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:46 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:46 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:46 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:47 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:47 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:48 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:48 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:49 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:49 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:49 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:49 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:50 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:50 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:51 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:51 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:52 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:52 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:52 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:52 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:53 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:53 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:53 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:53 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:54 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:54 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:55 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:55 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:55 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:55 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:56 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:56 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:56 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:56 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:57 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[02-Jun-2020 21:55:57 Asia/Kolkata] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 54
+[05-Jun-2020 15:08:04 Asia/Kolkata] PHP Warning:  Use of undefined constant taxable_without_gst_after_discount - assumed 'taxable_without_gst_after_discount' (this will throw an Error in a future version of PHP) in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 179
+[05-Jun-2020 15:08:04 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 179
+[05-Jun-2020 15:08:04 Asia/Kolkata] PHP Warning:  Use of undefined constant taxable_without_gst_after_discount - assumed 'taxable_without_gst_after_discount' (this will throw an Error in a future version of PHP) in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 179
+[05-Jun-2020 15:08:04 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 179
+[05-Jun-2020 15:08:04 Asia/Kolkata] PHP Warning:  Use of undefined constant taxable_without_gst_after_discount - assumed 'taxable_without_gst_after_discount' (this will throw an Error in a future version of PHP) in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 179
+[05-Jun-2020 15:08:04 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 179
+[05-Jun-2020 15:08:34 Asia/Kolkata] PHP Warning:  Use of undefined constant taxable_without_gst_after_discount - assumed 'taxable_without_gst_after_discount' (this will throw an Error in a future version of PHP) in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 179
+[05-Jun-2020 15:08:34 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 179
+[05-Jun-2020 15:08:34 Asia/Kolkata] PHP Warning:  Use of undefined constant taxable_without_gst_after_discount - assumed 'taxable_without_gst_after_discount' (this will throw an Error in a future version of PHP) in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 179
+[05-Jun-2020 15:08:34 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 179
+[05-Jun-2020 15:08:34 Asia/Kolkata] PHP Warning:  Use of undefined constant taxable_without_gst_after_discount - assumed 'taxable_without_gst_after_discount' (this will throw an Error in a future version of PHP) in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 179
+[05-Jun-2020 15:08:34 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 179
+[17-Jun-2020 10:54:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 206
+[17-Jun-2020 10:55:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 206
+[17-Jun-2020 11:04:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/mysurun/public_html/easierdesk.in/admin/account/ajaxdata.php on line 206

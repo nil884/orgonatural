@@ -1,0 +1,71 @@
+[13-May-2020 10:44:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'vendor' in /home/mysurun/public_html/easierdesk.in/admin/refund/refunding.php on line 16
+[13-May-2020 10:44:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'order_id' in /home/mysurun/public_html/easierdesk.in/admin/refund/refunding.php on line 29
+[13-May-2020 10:44:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'display_product_name' in /home/mysurun/public_html/easierdesk.in/admin/refund/refunding.php on line 33
+[13-May-2020 10:44:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'total_payable' in /home/mysurun/public_html/easierdesk.in/admin/refund/refunding.php on line 41
+[13-May-2020 10:44:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'refundable_amount' in /home/mysurun/public_html/easierdesk.in/admin/refund/refunding.php on line 45
+[13-May-2020 10:44:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'u_fname' in /home/mysurun/public_html/easierdesk.in/admin/refund/refunding.php on line 54
+[13-May-2020 10:44:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'u_lname' in /home/mysurun/public_html/easierdesk.in/admin/refund/refunding.php on line 54
+[13-May-2020 10:44:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'u_mobile' in /home/mysurun/public_html/easierdesk.in/admin/refund/refunding.php on line 58
+[13-May-2020 10:44:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'u_email' in /home/mysurun/public_html/easierdesk.in/admin/refund/refunding.php on line 62
+[13-May-2020 10:44:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'bank_name' in /home/mysurun/public_html/easierdesk.in/admin/refund/refunding.php on line 67
+[13-May-2020 10:44:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'account_name' in /home/mysurun/public_html/easierdesk.in/admin/refund/refunding.php on line 71
+[13-May-2020 10:44:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'account_number' in /home/mysurun/public_html/easierdesk.in/admin/refund/refunding.php on line 75
+[13-May-2020 10:44:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'ifsc_code' in /home/mysurun/public_html/easierdesk.in/admin/refund/refunding.php on line 79
+[13-May-2020 10:44:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'account_name' in /home/mysurun/public_html/easierdesk.in/admin/refund/refunding.php on line 91
+[13-May-2020 10:44:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'account_number' in /home/mysurun/public_html/easierdesk.in/admin/refund/refunding.php on line 95
+[13-May-2020 10:44:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'ifsc_code' in /home/mysurun/public_html/easierdesk.in/admin/refund/refunding.php on line 99
+[13-May-2020 10:44:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'refundable_amount' in /home/mysurun/public_html/easierdesk.in/admin/refund/refunding.php on line 103
+[29-Jun-2020 12:01:29 Asia/Kolkata] PHP Warning:  include_once(./classes/order.php): failed to open stream: No such file or directory in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 12:01:29 Asia/Kolkata] PHP Warning:  include_once(): Failed opening './classes/order.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 12:01:29 Asia/Kolkata] PHP Warning:  include_once(./classes/user.php): failed to open stream: No such file or directory in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 12:01:29 Asia/Kolkata] PHP Warning:  include_once(): Failed opening './classes/user.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 12:01:29 Asia/Kolkata] PHP Warning:  include_once(./classes/product.php): failed to open stream: No such file or directory in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 12:01:29 Asia/Kolkata] PHP Warning:  include_once(): Failed opening './classes/product.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 12:01:29 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'Product' not found in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php:11
+Stack trace:
+#0 /home/mysurun/public_html/easierdesk.in/admin/refund/index.php(12): include()
+#1 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 11
+[29-Jun-2020 12:01:51 Asia/Kolkata] PHP Warning:  include_once(./classes/order.php): failed to open stream: No such file or directory in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 12:01:51 Asia/Kolkata] PHP Warning:  include_once(): Failed opening './classes/order.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 12:01:51 Asia/Kolkata] PHP Warning:  include_once(./classes/user.php): failed to open stream: No such file or directory in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 12:01:51 Asia/Kolkata] PHP Warning:  include_once(): Failed opening './classes/user.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 12:01:51 Asia/Kolkata] PHP Warning:  include_once(./classes/product.php): failed to open stream: No such file or directory in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 12:01:51 Asia/Kolkata] PHP Warning:  include_once(): Failed opening './classes/product.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 12:01:51 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'Product' not found in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php:11
+Stack trace:
+#0 /home/mysurun/public_html/easierdesk.in/admin/refund/index.php(12): include()
+#1 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 11
+[29-Jun-2020 12:01:58 Asia/Kolkata] PHP Warning:  include_once(./classes/order.php): failed to open stream: No such file or directory in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 12:01:58 Asia/Kolkata] PHP Warning:  include_once(): Failed opening './classes/order.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 12:01:58 Asia/Kolkata] PHP Warning:  include_once(./classes/user.php): failed to open stream: No such file or directory in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 12:01:58 Asia/Kolkata] PHP Warning:  include_once(): Failed opening './classes/user.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 12:01:58 Asia/Kolkata] PHP Warning:  include_once(./classes/product.php): failed to open stream: No such file or directory in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 12:01:58 Asia/Kolkata] PHP Warning:  include_once(): Failed opening './classes/product.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 10
+[29-Jun-2020 12:01:58 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'Product' not found in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php:11
+Stack trace:
+#0 /home/mysurun/public_html/easierdesk.in/admin/refund/index.php(12): include()
+#1 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/admin/sidebar.php on line 11
+[29-Jun-2020 12:12:54 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 23
+[29-Jun-2020 12:12:54 Asia/Kolkata] PHP Warning:  Illegal string offset 'order_id' in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 25
+[29-Jun-2020 12:12:54 Asia/Kolkata] PHP Warning:  Illegal string offset 'u_fname' in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 25
+[29-Jun-2020 12:12:54 Asia/Kolkata] PHP Warning:  Illegal string offset 'u_lname' in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 25
+[29-Jun-2020 12:12:54 Asia/Kolkata] PHP Warning:  Illegal string offset 'refundable_amount' in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 25
+[29-Jun-2020 12:12:54 Asia/Kolkata] PHP Warning:  Illegal string offset 'item_id' in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 25
+[29-Jun-2020 12:12:54 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 23
+[29-Jun-2020 12:17:42 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 23
+[29-Jun-2020 12:17:42 Asia/Kolkata] PHP Warning:  Illegal string offset 'order_id' in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 25
+[29-Jun-2020 12:17:42 Asia/Kolkata] PHP Warning:  Illegal string offset 'u_fname' in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 25
+[29-Jun-2020 12:17:42 Asia/Kolkata] PHP Warning:  Illegal string offset 'u_lname' in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 25
+[29-Jun-2020 12:17:42 Asia/Kolkata] PHP Warning:  Illegal string offset 'refundable_amount' in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 25
+[29-Jun-2020 12:17:42 Asia/Kolkata] PHP Warning:  Illegal string offset 'item_id' in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 25
+[29-Jun-2020 12:17:42 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 23
+[29-Jun-2020 12:20:28 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 23
+[29-Jun-2020 12:20:28 Asia/Kolkata] PHP Warning:  Illegal string offset 'order_id' in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 25
+[29-Jun-2020 12:20:28 Asia/Kolkata] PHP Warning:  Illegal string offset 'u_fname' in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 25
+[29-Jun-2020 12:20:28 Asia/Kolkata] PHP Warning:  Illegal string offset 'u_lname' in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 25
+[29-Jun-2020 12:20:28 Asia/Kolkata] PHP Warning:  Illegal string offset 'refundable_amount' in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 25
+[29-Jun-2020 12:20:28 Asia/Kolkata] PHP Warning:  Illegal string offset 'item_id' in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 25
+[29-Jun-2020 12:20:28 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/refund/index.php on line 23

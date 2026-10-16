@@ -1,0 +1,210 @@
+[02-Jul-2020 08:47:19 UTC] PHP Parse error:  syntax error, unexpected 'script' (T_STRING) in /home/mysurun/public_html/easierdesk.in/admin/config/footer_script.php on line 2
+[02-Jul-2020 08:47:21 UTC] PHP Parse error:  syntax error, unexpected 'script' (T_STRING) in /home/mysurun/public_html/easierdesk.in/admin/config/footer_script.php on line 2
+[02-Jul-2020 08:47:22 UTC] PHP Parse error:  syntax error, unexpected 'script' (T_STRING) in /home/mysurun/public_html/easierdesk.in/admin/config/footer_script.php on line 2
+[02-Jul-2020 08:47:58 UTC] PHP Parse error:  syntax error, unexpected 'script' (T_STRING), expecting ')' in /home/mysurun/public_html/easierdesk.in/admin/config/footer_script.php on line 2
+[02-Jul-2020 08:47:59 UTC] PHP Parse error:  syntax error, unexpected 'script' (T_STRING), expecting ')' in /home/mysurun/public_html/easierdesk.in/admin/config/footer_script.php on line 2
+[02-Jul-2020 11:44:52 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/mysurun/public_html/easierdesk.in/admin/config/footer_script.php on line 48
+[02-Jul-2020 11:45:09 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/mysurun/public_html/easierdesk.in/admin/config/footer_script.php on line 48
+[02-Jul-2020 11:45:13 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/mysurun/public_html/easierdesk.in/admin/config/footer_script.php on line 48
+[04-Jul-2020 12:19:58 Asia/Kolkata] PHP Warning:  rmdir(../../img/favicon): Directory not empty in /home/mysurun/public_html/easierdesk.in/admin/config/ajaxdata.php on line 486
+[04-Jul-2020 12:20:44 Asia/Kolkata] PHP Warning:  rmdir(../../img/favicon): Directory not empty in /home/mysurun/public_html/easierdesk.in/admin/config/ajaxdata.php on line 486
+[04-Jul-2020 13:20:18 Asia/Kolkata] PHP Warning:  rmdir(../../img/favicon): Directory not empty in /home/mysurun/public_html/easierdesk.in/admin/config/ajaxdata.php on line 486
+[08-Jul-2020 15:40:04 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function getrecords() in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 16
+[08-Jul-2020 15:40:20 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function getrecords() in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 16
+[08-Jul-2020 15:41:37 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function getrecords() in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 16
+[08-Jul-2020 16:09:31 Asia/Kolkata] PHP Warning:  curl_error() expects parameter 1 to be resource, null given in /home/mysurun/public_html/easierdesk.in/classes/surunapi.php on line 20
+[08-Jul-2020 10:57:39 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 24
+[08-Jul-2020 18:21:44 Asia/Kolkata] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/mysurun/public_html/easierdesk.in/admin/config/ajaxdata.php on line 597
+[08-Jul-2020 18:47:48 Asia/Kolkata] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/mysurun/public_html/easierdesk.in/admin/config/ajaxdata.php on line 597
+[08-Jul-2020 18:48:42 Asia/Kolkata] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/mysurun/public_html/easierdesk.in/admin/config/ajaxdata.php on line 597
+[08-Jul-2020 18:48:50 Asia/Kolkata] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/mysurun/public_html/easierdesk.in/admin/config/ajaxdata.php on line 597
+[08-Jul-2020 18:50:31 Asia/Kolkata] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/mysurun/public_html/easierdesk.in/admin/config/ajaxdata.php on line 597
+[08-Jul-2020 18:50:57 Asia/Kolkata] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/mysurun/public_html/easierdesk.in/admin/config/ajaxdata.php on line 598
+[08-Jul-2020 20:29:39 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:29:39 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:29:39 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 64
+[08-Jul-2020 20:29:39 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:29:39 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:29:39 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 120
+[08-Jul-2020 20:29:39 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:29:39 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:29:39 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 178
+[08-Jul-2020 20:30:18 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:30:18 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:30:18 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 64
+[08-Jul-2020 20:30:18 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:30:18 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:30:18 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 120
+[08-Jul-2020 20:30:18 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:30:18 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:30:18 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 178
+[08-Jul-2020 20:31:05 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:31:05 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:31:05 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 64
+[08-Jul-2020 20:31:05 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:31:05 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:31:05 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 120
+[08-Jul-2020 20:31:05 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:31:05 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:31:05 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 178
+[08-Jul-2020 20:31:29 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:31:29 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:31:29 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 64
+[08-Jul-2020 20:31:29 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:31:29 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:31:29 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 120
+[08-Jul-2020 20:31:29 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:31:29 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:31:29 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 178
+[08-Jul-2020 20:31:36 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:31:36 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:31:36 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 64
+[08-Jul-2020 20:31:36 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:31:36 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:31:36 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 120
+[08-Jul-2020 20:31:36 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:31:36 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:31:36 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 178
+[08-Jul-2020 20:31:59 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:31:59 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:31:59 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 64
+[08-Jul-2020 20:31:59 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:31:59 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:31:59 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 120
+[08-Jul-2020 20:31:59 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:31:59 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:31:59 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 178
+[08-Jul-2020 20:32:30 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:32:30 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:32:30 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 64
+[08-Jul-2020 20:32:30 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:32:30 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:32:30 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 120
+[08-Jul-2020 20:32:30 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:32:30 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:32:30 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 178
+[08-Jul-2020 20:32:52 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:32:52 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:32:52 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 64
+[08-Jul-2020 20:32:52 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:32:52 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:32:52 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 120
+[08-Jul-2020 20:32:52 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:32:52 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:32:52 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 178
+[08-Jul-2020 15:07:22 UTC] PHP Parse error:  syntax error, unexpected '""' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 20
+[08-Jul-2020 20:37:45 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:37:45 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:37:45 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 64
+[08-Jul-2020 20:37:45 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:37:45 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:37:45 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 120
+[08-Jul-2020 20:37:45 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:37:45 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:37:45 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 178
+[08-Jul-2020 20:38:07 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:38:07 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:38:07 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 64
+[08-Jul-2020 20:38:07 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:38:07 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:38:07 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 120
+[08-Jul-2020 20:38:07 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:38:07 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:38:07 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 178
+[08-Jul-2020 20:40:17 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:40:17 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 63
+[08-Jul-2020 20:40:17 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 64
+[08-Jul-2020 20:40:17 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:40:17 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 119
+[08-Jul-2020 20:40:17 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 120
+[08-Jul-2020 20:40:17 Asia/Kolkata] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:40:17 Asia/Kolkata] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 176
+[08-Jul-2020 20:40:17 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/config/dns_zone.php on line 178
+[10-Jul-2020 16:04:15 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 2 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[10-Jul-2020 16:04:15 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[10-Jul-2020 16:04:47 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 2 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[10-Jul-2020 16:04:47 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[11-Jul-2020 17:21:19 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[11-Jul-2020 17:21:19 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[11-Jul-2020 17:21:19 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[11-Jul-2020 17:21:39 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[11-Jul-2020 17:21:39 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[11-Jul-2020 17:21:39 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:28:31 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:28:31 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:28:31 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:28:39 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:28:39 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:28:39 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:28:56 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:28:56 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:28:56 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:31:06 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:31:06 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:31:06 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:31:18 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:31:18 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:31:18 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:31:35 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:31:35 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:31:35 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:31:46 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:31:46 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:31:46 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:33:36 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:33:36 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:33:36 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:33:59 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:33:59 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:33:59 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:35:47 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:35:47 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:35:47 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:37:48 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:37:48 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:37:48 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:38:20 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:38:20 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:38:20 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:39:12 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:39:12 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:39:12 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:39:39 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:39:39 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:39:39 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:40:09 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:40:09 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:40:09 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:40:25 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:40:25 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:40:25 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:41:12 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:41:12 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:41:12 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:41:40 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:41:40 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:41:40 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:41:56 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:41:56 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:41:56 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:42:20 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:42:20 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:42:20 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:42:32 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:42:32 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:42:32 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:42:51 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:42:51 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:42:51 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12
+[13-Jul-2020 19:43:28 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 7
+[13-Jul-2020 19:43:28 Asia/Kolkata] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 11
+[13-Jul-2020 19:43:28 Asia/Kolkata] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/mysurun/public_html/easierdesk.in/admin/config/ajax_customize_option.php on line 12

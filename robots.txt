@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /vendors/
+Disallow: /includes/
+Disallow: /account/
+Disallow: /facebook/
+Disallow: /google/ 
+Disallow: /captcha.php
+Disallow: /img/buyer_profile
+Disallow: /img/order_img
+Disallow: /img/projectimage
+Disallow: /img/support_tkt_comments
+Disallow: /img/vendordocs_images
+Disallow: /img/wishlist_quotation
+
+Sitemap: https://www.orgonatural.com/sitemap.xml

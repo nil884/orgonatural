@@ -1,0 +1,8 @@
+[09-Jun-2020 11:50:34 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/sms_report/generatesmsreport.php on line 8
+[09-Jun-2020 11:50:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'date' in /home/mysurun/public_html/easierdesk.in/admin/sms_report/generatesmsreport.php on line 9
+[09-Jun-2020 11:50:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'msg_type' in /home/mysurun/public_html/easierdesk.in/admin/sms_report/generatesmsreport.php on line 9
+[09-Jun-2020 11:50:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_name' in /home/mysurun/public_html/easierdesk.in/admin/sms_report/generatesmsreport.php on line 9
+[09-Jun-2020 11:50:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'mobile_no' in /home/mysurun/public_html/easierdesk.in/admin/sms_report/generatesmsreport.php on line 9
+[09-Jun-2020 11:50:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'message' in /home/mysurun/public_html/easierdesk.in/admin/sms_report/generatesmsreport.php on line 9
+[09-Jun-2020 11:50:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'status' in /home/mysurun/public_html/easierdesk.in/admin/sms_report/generatesmsreport.php on line 9
+[09-Jun-2020 11:50:34 Asia/Kolkata] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/mysurun/public_html/easierdesk.in/admin/sms_report/generatesmsreport.php on line 8
