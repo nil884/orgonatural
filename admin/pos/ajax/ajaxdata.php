@@ -21,44 +21,165 @@ if($action=="getqualityrates"){
     }
 }
 
-if($action=="validateitem"){
-      require_once "../../../classes/shiprocket.php";
-     include_once("../../../classes/surunapi.php");
-    $srn=new surun();
-    $username = SHIPUSER; $pasword=SHIPPWD;
+/** code comment bcz api not working...domain expire it. temp code comment */
+// if($action=="validateitem"){
+//       require_once "../../../classes/shiprocket.php";
+//      include_once("../../../classes/surunapi.php");
+//     $srn=new surun();
+//     $username = SHIPUSER; $pasword=SHIPPWD;
 
-   $qualityname=$_POST['qualityname']; $pincode=$_POST['pincode'];
-   $vSubQCode=$_POST['vSubQCode'];$vSubRate=$_POST['vSubRate'];$vsubid=$_POST['vsubid'];$vSubQty=$_POST['vSubQty'];$vSubTaxable=$_POST['vSubTaxable'];$vSubTax=$_POST['vSubTax'];$vSubcgst=$_POST['vSubcgst'];$vSubsgst=$_POST['vSubsgst'];$vSubigst=$_POST['vSubigst'];$vSubTotal=$_POST['vSubTotal'];
+//    $qualityname=$_POST['qualityname']; $pincode=$_POST['pincode'];
+//    $vSubQCode=$_POST['vSubQCode'];$vSubRate=$_POST['vSubRate'];$vsubid=$_POST['vsubid'];$vSubQty=$_POST['vSubQty'];$vSubTaxable=$_POST['vSubTaxable'];$vSubTax=$_POST['vSubTax'];$vSubcgst=$_POST['vSubcgst'];$vSubsgst=$_POST['vSubsgst'];$vSubigst=$_POST['vSubigst'];$vSubTotal=$_POST['vSubTotal'];
 
-    if($qualityname!=""){  /* if quality name is not blank then process*/
-        $getQCode=selectQuery(PRODINFO,"id","prod_name ='".$qualityname."'  and vendor=".$vendor);
-        if(count($getQCode)){
-              $adminpin = $getconfigdetails[0]['pincode'];
-               $UserPin = array("postcode"=>$pincode);  $AdminPin = array("postcode"=>$adminpin);
-           if($username!=""&&$pasword!=""){
-                $ship = new shiprocket($username,$pasword);
-                $token = $ship->authenticate();
+//     if($qualityname!=""){  /* if quality name is not blank then process*/
+//         $getQCode=selectQuery(PRODINFO,"id","prod_name ='".$qualityname."'  and vendor=".$vendor);
+//         if(count($getQCode)){
+//               $adminpin = $getconfigdetails[0]['pincode'];
+//                $UserPin = array("postcode"=>$pincode);  $AdminPin = array("postcode"=>$adminpin);
+//            if($username!=""&&$pasword!=""){
+//                 $ship = new shiprocket($username,$pasword);
+//                 $token = $ship->authenticate();
 
-                $resUPin = $ship->getPincodeData($token,$UserPin);
-                 $res = $ship->getPincodeData($token,$AdminPin);
-            }else{
-               $resUPin=$srn->getPincodeData($UserPin);
-                $res = $srn->getPincodeData($AdminPin);
-            }
-             /* user */
-                $pinResUser= $resUPin['postcode_details'];   $UserState = $pinResUser['state'];
-                  /* admin */
-                $pinRes = $res['postcode_details']; $adminState=$pinRes['state'];
+//                 $resUPin = $ship->getPincodeData($token,$UserPin);
+//                  $res = $ship->getPincodeData($token,$AdminPin);
+//             }else{
+//                $resUPin=$srn->getPincodeData($UserPin);
+//                 $res = $srn->getPincodeData($AdminPin);
+//             }
+//              /* user */
+//                 $pinResUser= $resUPin['postcode_details'];   $UserState = $pinResUser['state'];
+//                   /* admin */
+//                 $pinRes = $res['postcode_details']; $adminState=$pinRes['state'];
 
-            if($UserState==$adminState){   $igst="false"; }else{ $igst="true";  }
+//             if($UserState==$adminState){   $igst="false"; }else{ $igst="true";  }
 
-            $getstock=selectQuery(PRODINFO,"(stock-sold-blocked) as stock","id =".$getQCode[0]['id']);
+//             $getstock=selectQuery(PRODINFO,"(stock-sold-blocked) as stock","id =".$getQCode[0]['id']);
 
-            $data=array("id"=>$getQCode[0]['id'],"stock"=>$getstock[0]['stock'],"igst"=>$igst,"vsubid"=>$vsubid,"vSubQCode"=>$vSubQCode,"vSubRate"=>$vSubRate,"vSubQty"=>$vSubQty,"vSubTaxable"=>$vSubTaxable,"vSubTax"=>$vSubTax,"vSubcgst"=>$vSubcgst,"vSubsgst"=>$vSubsgst,"vSubigst"=>$vSubigst,"vSubTotal"=>$vSubTotal);
-            echo json_encode($data);
-        }else{echo 0;}
-    }else{
+//             $data=array("id"=>$getQCode[0]['id'],"stock"=>$getstock[0]['stock'],"igst"=>$igst,"vsubid"=>$vsubid,"vSubQCode"=>$vSubQCode,"vSubRate"=>$vSubRate,"vSubQty"=>$vSubQty,"vSubTaxable"=>$vSubTaxable,"vSubTax"=>$vSubTax,"vSubcgst"=>$vSubcgst,"vSubsgst"=>$vSubsgst,"vSubigst"=>$vSubigst,"vSubTotal"=>$vSubTotal);
+//             echo json_encode($data);
+//         }else{echo 0;}
+//     }else{
+//         echo 0;
+//     }
+// }
+
+if ($action == "validateitem") {
+
+    require_once "../../../classes/shiprocket.php";
+
+    $username = SHIPUSER;
+    $password = SHIPPWD;
+
+    $qualityname = $_POST['qualityname'] ?? '';
+    $pincode = $_POST['pincode'] ?? '';
+
+    $vSubQCode = $_POST['vSubQCode'] ?? '';
+    $vSubRate = $_POST['vSubRate'] ?? '';
+    $vsubid = $_POST['vsubid'] ?? '';
+    $vSubQty = $_POST['vSubQty'] ?? '';
+    $vSubTaxable = $_POST['vSubTaxable'] ?? '';
+    $vSubTax = $_POST['vSubTax'] ?? '';
+    $vSubcgst = $_POST['vSubcgst'] ?? '';
+    $vSubsgst = $_POST['vSubsgst'] ?? '';
+    $vSubigst = $_POST['vSubigst'] ?? '';
+    $vSubTotal = $_POST['vSubTotal'] ?? '';
+
+    if ($qualityname == '') {
         echo 0;
+        exit;
+    }
+
+    $getQCode = selectQuery(
+        PRODINFO,
+        "id",
+        "prod_name = '" . addslashes($qualityname) . "' AND vendor = " . (int)$vendor
+    );
+
+    if (empty($getQCode)) {
+        echo 0;
+        exit;
+    }
+
+    // Shiprocket configuration
+    if ($username != '' && $password != '') {
+
+        try {
+            $ship = new shiprocket($username, $password);
+            $token = $ship->authenticate();
+
+            if (empty($token)) {
+                echo json_encode([
+                    "error" => true,
+                    "message" => "Shiprocket authentication failed."
+                ]);
+                exit;
+            }
+
+            $adminpin = $getconfigdetails[0]['pincode'];
+
+            $UserPin = ["postcode" => $pincode];
+            $AdminPin = ["postcode" => $adminpin];
+
+            $resUPin = $ship->getPincodeData($token, $UserPin);
+            $res = $ship->getPincodeData($token, $AdminPin);
+
+            $pinResUser = $resUPin['postcode_details'] ?? [];
+            $pinRes = $res['postcode_details'] ?? [];
+
+            if (empty($pinResUser['state']) || empty($pinRes['state'])) {
+                echo json_encode([
+                    "error" => true,
+                    "message" => "Unable to retrieve state details for the supplied pincode."
+                ]);
+                exit;
+            }
+
+            $UserState = $pinResUser['state'];
+            $adminState = $pinRes['state'];
+
+            $igst = ($UserState == $adminState) ? "false" : "true";
+
+            $getstock = selectQuery(
+                PRODINFO,
+                "(stock-sold-blocked) as stock",
+                "id = " . (int)$getQCode[0]['id']
+            );
+
+            $data = [
+                "id" => $getQCode[0]['id'],
+                "stock" => $getstock[0]['stock'] ?? 0,
+                "igst" => $igst,
+                "vsubid" => $vsubid,
+                "vSubQCode" => $vSubQCode,
+                "vSubRate" => $vSubRate,
+                "vSubQty" => $vSubQty,
+                "vSubTaxable" => $vSubTaxable,
+                "vSubTax" => $vSubTax,
+                "vSubcgst" => $vSubcgst,
+                "vSubsgst" => $vSubsgst,
+                "vSubigst" => $vSubigst,
+                "vSubTotal" => $vSubTotal
+            ];
+
+            echo json_encode($data);
+            exit;
+
+        } catch (Throwable $e) {
+            error_log("validateitem error: " . $e->getMessage());
+
+            echo json_encode([
+                "error" => true,
+                "message" => "Unable to validate item at this time."
+            ]);
+            exit;
+        }
+
+    } else {
+        echo json_encode([
+            "error" => true,
+            "message" => "Shiprocket credentials are not configured."
+        ]);
+        exit;
     }
 }
 
