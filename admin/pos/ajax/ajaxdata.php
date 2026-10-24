@@ -24,7 +24,7 @@ if($action=="getqualityrates"){
 /** code comment bcz api not working...domain expire it. temp code comment */
 // if($action=="validateitem"){
 //       require_once "../../../classes/shiprocket.php";
-//      include_once("../../../classes/surunapi.php");
+//     // include_once("../../../classes/surunapi.php");
 //     $srn=new surun();
 //     $username = SHIPUSER; $pasword=SHIPPWD;
 
@@ -43,8 +43,8 @@ if($action=="getqualityrates"){
 //                 $resUPin = $ship->getPincodeData($token,$UserPin);
 //                  $res = $ship->getPincodeData($token,$AdminPin);
 //             }else{
-//                $resUPin=$srn->getPincodeData($UserPin);
-//                 $res = $srn->getPincodeData($AdminPin);
+//               // $resUPin=$srn->getPincodeData($UserPin);
+//                // $res = $srn->getPincodeData($AdminPin);
 //             }
 //              /* user */
 //                 $pinResUser= $resUPin['postcode_details'];   $UserState = $pinResUser['state'];
@@ -65,89 +65,82 @@ if($action=="getqualityrates"){
 
 if ($action == "validateitem") {
 
+    // Shiprocket include ठेवायचा आहे
     require_once "../../../classes/shiprocket.php";
 
+    // Surun API बंद
+    // include_once("../../../classes/surunapi.php");
+    // $srn = new surun();
+
     $username = SHIPUSER;
-    $password = SHIPPWD;
+    $pasword = SHIPPWD;
 
-    $qualityname = $_POST['qualityname'] ?? '';
-    $pincode = $_POST['pincode'] ?? '';
+    $qualityname = $_POST['qualityname'];
+    $pincode = $_POST['pincode'];
 
-    $vSubQCode = $_POST['vSubQCode'] ?? '';
-    $vSubRate = $_POST['vSubRate'] ?? '';
-    $vsubid = $_POST['vsubid'] ?? '';
-    $vSubQty = $_POST['vSubQty'] ?? '';
-    $vSubTaxable = $_POST['vSubTaxable'] ?? '';
-    $vSubTax = $_POST['vSubTax'] ?? '';
-    $vSubcgst = $_POST['vSubcgst'] ?? '';
-    $vSubsgst = $_POST['vSubsgst'] ?? '';
-    $vSubigst = $_POST['vSubigst'] ?? '';
-    $vSubTotal = $_POST['vSubTotal'] ?? '';
+    $vSubQCode = $_POST['vSubQCode'];
+    $vSubRate = $_POST['vSubRate'];
+    $vsubid = $_POST['vsubid'];
+    $vSubQty = $_POST['vSubQty'];
+    $vSubTaxable = $_POST['vSubTaxable'];
+    $vSubTax = $_POST['vSubTax'];
+    $vSubcgst = $_POST['vSubcgst'];
+    $vSubsgst = $_POST['vSubsgst'];
+    $vSubigst = $_POST['vSubigst'];
+    $vSubTotal = $_POST['vSubTotal'];
 
-    if ($qualityname == '') {
-        echo 0;
-        exit;
-    }
+    if ($qualityname != "") {
 
-    $getQCode = selectQuery(
-        PRODINFO,
-        "id",
-        "prod_name = '" . addslashes($qualityname) . "' AND vendor = " . (int)$vendor
-    );
+        $getQCode = selectQuery(
+            PRODINFO,
+            "id",
+            "prod_name = '" . $qualityname . "' AND vendor = " . $vendor
+        );
 
-    if (empty($getQCode)) {
-        echo 0;
-        exit;
-    }
-
-    // Shiprocket configuration
-    if ($username != '' && $password != '') {
-
-        try {
-            $ship = new shiprocket($username, $password);
-            $token = $ship->authenticate();
-
-            if (empty($token)) {
-                echo json_encode([
-                    "error" => true,
-                    "message" => "Shiprocket authentication failed."
-                ]);
-                exit;
-            }
+        if (count($getQCode)) {
 
             $adminpin = $getconfigdetails[0]['pincode'];
 
-            $UserPin = ["postcode" => $pincode];
-            $AdminPin = ["postcode" => $adminpin];
+            $UserPin = array("postcode" => $pincode);
+            $AdminPin = array("postcode" => $adminpin);
 
-            $resUPin = $ship->getPincodeData($token, $UserPin);
-            $res = $ship->getPincodeData($token, $AdminPin);
+            if ($username != "" && $pasword != "") {
 
-            $pinResUser = $resUPin['postcode_details'] ?? [];
-            $pinRes = $res['postcode_details'] ?? [];
+                // Shiprocket API सुरूच राहील
+                $ship = new shiprocket($username, $pasword);
+                $token = $ship->authenticate();
 
-            if (empty($pinResUser['state']) || empty($pinRes['state'])) {
-                echo json_encode([
-                    "error" => true,
-                    "message" => "Unable to retrieve state details for the supplied pincode."
-                ]);
-                exit;
+                $resUPin = $ship->getPincodeData($token, $UserPin);
+                $res = $ship->getPincodeData($token, $AdminPin);
+
+                $pinResUser = $resUPin['postcode_details'];
+                $UserState = $pinResUser['state'];
+
+                $pinRes = $res['postcode_details'];
+                $adminState = $pinRes['state'];
+
+                if ($UserState == $adminState) {
+                    $igst = "false";
+                } else {
+                    $igst = "true";
+                }
+
+            } else {
+
+                // Surun API बंद असल्यामुळे fallback API call नाही.
+                // Default IGST value
+                $igst = "false";
             }
-
-            $UserState = $pinResUser['state'];
-            $adminState = $pinRes['state'];
-
-            $igst = ($UserState == $adminState) ? "false" : "true";
 
             $getstock = selectQuery(
                 PRODINFO,
                 "(stock-sold-blocked) as stock",
-                "id = " . (int)$getQCode[0]['id']
+                "id =" . $getQCode[0]['id']
             );
 
-            $data = [
+            $data = array(
                 "id" => $getQCode[0]['id'],
-                "stock" => $getstock[0]['stock'] ?? 0,
+                "stock" => $getstock[0]['stock'],
                 "igst" => $igst,
                 "vsubid" => $vsubid,
                 "vSubQCode" => $vSubQCode,
@@ -159,29 +152,20 @@ if ($action == "validateitem") {
                 "vSubsgst" => $vSubsgst,
                 "vSubigst" => $vSubigst,
                 "vSubTotal" => $vSubTotal
-            ];
+            );
 
             echo json_encode($data);
-            exit;
 
-        } catch (Throwable $e) {
-            error_log("validateitem error: " . $e->getMessage());
-
-            echo json_encode([
-                "error" => true,
-                "message" => "Unable to validate item at this time."
-            ]);
-            exit;
+        } else {
+            echo 0;
         }
 
     } else {
-        echo json_encode([
-            "error" => true,
-            "message" => "Shiprocket credentials are not configured."
-        ]);
-        exit;
+        echo 0;
     }
 }
+
+
 
 if($action=="addData"){
 
